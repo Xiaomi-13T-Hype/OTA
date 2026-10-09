@@ -5,7 +5,7 @@
       "oem": "Xiaomi",
       "device": "vayu",
       "filename": "Lunaris-AOSP-vayu-GMS-Community-3.12-GMS-2026100820.zip",
-      "download": "https://github.com/Xiaomi-13T-Hype/android_device_xiaomi_vayu/releases/download/v3.12-1791491754/Lunaris-AOSP-vayu-GMS-Community-3.12-GMS-2026100820.zip",
+      "download": "https://huggingface.co/datasets/MotoTaper/Lunaris-AOSP-Private-OTA/resolve/main/Lunaris-AOSP-vayu-GMS-Community-3.12-GMS-2026100820.zip",
       "timestamp": 1791491754,
       "md5": "7887f69b8c114c1455affefde2e136f9",
       "sha256": "bb394b4e0ed372e3017e69835413c274c044be51c9b2f204e0a19f128ef46f64",
