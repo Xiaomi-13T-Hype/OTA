@@ -1,0 +1,13 @@
+Changelog
+=========
+09/10/2026
+---------------
+- Initial Lunaris AOSP 3.12 Official Release for Poco X3 Pro (vayu)
+- Android 16 QPR2 (Security Patch: 2026-09-01)
+- Kernel: Compiled with Neutron Clang 24 (LLVM 24)
+- Charging: Uncapped 33W Fast Charging (5.5A Charge Pump via BQ25970)
+- Thermal: Raised JEITA warm wall to 51.5°C & fixed battery temperature throttling
+- Power: Resolved SMB5 / JEITA voter 0mA deadlock on disconnect
+- Display & Audio: Enabled Reality Engine and Dolby Atmos
+- Performance: Optimized Dexopt enabled
+- OTA: Connected Official private update channel via Xiaomi-13T-Hype
