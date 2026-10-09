@@ -1,0 +1,30 @@
+{
+  "response": [
+    {
+      "maintainer": "Xiaomi-13T-Hype | モトテーパー",
+      "oem": "Xiaomi",
+      "device": "vayu",
+      "filename": "Lunaris-AOSP-vayu-GMS-Community-3.12-GMS-2026100820.zip",
+      "download": "https://github.com/Xiaomi-13T-Hype/android_device_xiaomi_vayu/releases/download/v3.12-1791491754/Lunaris-AOSP-vayu-GMS-Community-3.12-GMS-2026100820.zip",
+      "timestamp": 1791491754,
+      "md5": "7887f69b8c114c1455affefde2e136f9",
+      "sha256": "bb394b4e0ed372e3017e69835413c274c044be51c9b2f204e0a19f128ef46f64",
+      "size": 3011161810,
+      "version": "3.12",
+      "os_patch_level": "2026-09-01",
+      "os_sdk_level": 36,
+      "buildtype": "Official",
+      "forum": "https://github.com/Xiaomi-13T-Hype/android_device_xiaomi_vayu/issues",
+      "gapps": "",
+      "firmware": "",
+      "modem": "",
+      "bootloader": "",
+      "recovery": "",
+      "paypal": "",
+      "telegram": "",
+      "dt": "https://github.com/Xiaomi-13T-Hype/android_device_xiaomi_vayu",
+      "common-dt": "https://github.com/Xiaomi-13T-Hype/android_device_xiaomi_sm8150-common",
+      "kernel": "https://github.com/Xiaomi-13T-Hype/android_kernel_xiaomi_sm8150"
+    }
+  ]
+}
