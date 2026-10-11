@@ -1,5 +1,18 @@
 Changelog
 =========
+11/10/2026
+---------------
+- Power: Unlocked full 6000-6500mA charging current (11V PPS APDO)
+- Power: Calibrated pd-bat-volt-max to 4460mV to eliminate Over voltage flag
+- Power: Fixed bypass charging sysfs node permissions for GameSpace
+- Performance: Enforced all 8 CPU cores online (disabled core_ctl parking)
+- Performance: Unlocked write permissions for CPU governor scaling and Adreno GPU devfreq
+- Thermal: Restored Project Raco Kobo (-274°C daemon override) thermal throttling bypass
+- GameSpace: Full Russian localization overhaul (315 strings synced 1:1)
+- GameSpace: Localized FPS Stats settings preference and fixed broken labels
+- System: Switched build type to Official release status
+- SELinux: Added battery supply sysfs permissions for vendor init shell
+
 09/10/2026
 ---------------
 - Initial Lunaris AOSP 3.12 Official Release for Poco X3 Pro (vayu)
