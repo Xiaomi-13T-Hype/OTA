@@ -17,8 +17,6 @@ Changelog
 - Device: Moved vendor.sensors (sscrpcd) service to hal class
 - Device: Granted input_suspend sysfs permissions on boot completed
 - Device: Switched kernel compiler to Neutron Clang 24 (LLVM 24)
-- OTA: Upgraded createjson automation with direct network interface binding bypassing VPN
-- OTA: Updated release build Lunaris-AOSP-vayu-Official-3.12-GMS-2026102508.zip
 
 11/10/2026
 ---------------
