@@ -1,5 +1,25 @@
 Changelog
 =========
+25/10/2026
+---------------
+- SukiSU: Updated SukiSU-Ultra to v4.2.1-r2 (41068) with UAPI v5
+- Root: Fixed manager root grant failure; enforced throne tracker direct APK verification
+- Root: Bundled libksud.so and native runtime libraries into manager package
+- Root: Deployed ksud binary to /data/adb/ksud on early post-fs-data trigger
+- System: Enforced automatic reinstallation/update of preinstalled apps on OTA (SukiSU, ProjectRaco, N0KontzzzManager)
+- Kernel: Enabled CONFIG_USERFAULTFD for ART Concurrent Mark-Compact (CMC) GC
+- Kernel: Enabled CONFIG_CHECKPOINT_RESTORE and userfaultfd range registration below mmap_min_addr
+- Kernel: Backported CAKE packet scheduler (sch_cake) & enabled TCP BBR / CAKE by default
+- Kernel: Implemented clone3 syscall with CLONE_CLEAR_SIGHAND and clone_args support
+- Kernel: Backported Adreno KGSL graphics optimizations from SM8250 platform
+- Kernel: Introduced vayu-bpf_defconfig with eBPF, PSI and MEMCG for Android 16 lmkd
+- Kernel: Increased default vm.swappiness to 85 and protected critical tasks from slab shrinking
+- Device: Moved vendor.sensors (sscrpcd) service to hal class
+- Device: Granted input_suspend sysfs permissions on boot completed
+- Device: Switched kernel compiler to Neutron Clang 24 (LLVM 24)
+- OTA: Upgraded createjson automation with direct network interface binding bypassing VPN
+- OTA: Updated release build Lunaris-AOSP-vayu-Official-3.12-GMS-2026102508.zip
+
 11/10/2026
 ---------------
 - Power: Unlocked full 6000-6500mA charging current (11V PPS APDO)
