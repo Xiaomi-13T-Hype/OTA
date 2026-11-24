@@ -1,5 +1,33 @@
 Changelog
 =========
+24/11/2026 (Lunaris AOSP 3.13 Official Release)
+-----------------------------------------------
+- OS: Updated base to Lunaris AOSP 3.13 (Android 16 QPR2, SPL: 2026-11-01)
+- Link to Windows (Xiaomi OEM Stack): Integrated full advanced Link to Windows from Xiaomi 13T Pro (OS3.0.5.0.WMFMIXM)
+  * Bundled LinkToWindows (v1.25044.13.0) and DeviceIntegrationService into /product/priv-app/
+  * Integrated CrossDeviceServiceBroker into /system_ext/app/ signed with platform keys
+  * Configured privapp whitelist permissions and declared MANAGE_CROSS_DEVICE permission
+- Framework: Reconstructed CrossDeviceManager OEM service & AIDL interface contract
+  * Resolved ClassNotFoundException: android.app.CrossDeviceManager
+  * Implemented CrossDeviceManager with feature checks (remote apps, phone screen, clipboard sync, 60fps cap)
+  * Implemented ICrossDeviceService, IProximityService, IRemoteTaskCallback, IRfcommOemManager, IServiceRemoteTaskInstance, ITaskChangeListener
+  * Registered CrossDeviceManager in SystemServiceRegistry under Context.CROSS_DEVICE_SERVICE
+- Settings: Integrated Link to Windows into Connected Devices
+  * Implemented LinkToWindowsPreferenceController in Connection preferences
+  * Added adaptive vector icon ic_link_to_windows styled for AOSP Material You
+  * Added full bilingual strings (Russian and English) and search indexing keywords
+  * Implemented runtime component enabler with cascading fallback to StartUpActivity
+- Camera & Media: Patched camera HAL & chi override libraries to eliminate SEGV crashes
+- Media: Resolved background camera/media playback freeze and audio routing deadlock
+- SystemUI: Localized Compose power & restart dialogs into Russian
+- SystemUI: Calibrated default clock & glass widget rendering
+- Performance: Suppressed scroll/fling boosts during active GameSpace gaming sessions
+- Settings: Corrected hardware specification labels for POCO X3 Pro (Snapdragon 860)
+- Kernel & Display: Maintained 130 Hz panel refresh rate and 692 MHz GPU overclock
+- OTA: Published build Lunaris-AOSP-vayu-Official-3.13-GMS-2026112418.zip via Hugging Face CDN & GitHub OTA
+
+Changelog
+=========
 25/10/2026
 ---------------
 - SukiSU: Updated SukiSU-Ultra to v4.2.1-r2 (41068) with UAPI v5
